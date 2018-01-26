@@ -1,59 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context="csci490.cofc.edu.button_counter_mainar.MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="10dp"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:paddingTop="10dp"
-    tools:context="csci490.cofc.edu.button_counter_mainar.MainActivity"
-    android:gravity="center">
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/counterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:textColor="#4f6b99"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="269dp"
         android:gravity="center"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button Counter"/>
-
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="#76d7c4"
             android:onClick="addClicked"
             android:text="Add" />
 
-
-        <TextView
-            android:id="@+id/counterText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:textSize="50sp" />
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="#f5b7b1"
             android:onClick="subtractClicked"
             android:text="Subtract" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:onClick="resetClicked"
-            android:text="Reset" />
-
-
-
-
     </LinearLayout>
 
-</RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetClicked"
+        android:text="Reset"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#b4ccfb"
+        />
+
+</LinearLayout>
+
