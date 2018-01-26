@@ -14,14 +14,11 @@
         android:text="0"
         android:textSize="50sp"
         android:textColor="#4f6b99"/>
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="269dp"
         android:gravity="center"
         android:orientation="horizontal">
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,7 +27,6 @@
             android:backgroundTint="#76d7c4"
             android:onClick="addClicked"
             android:text="Add" />
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,9 +34,7 @@
             android:backgroundTint="#f5b7b1"
             android:onClick="subtractClicked"
             android:text="Subtract" />
-
     </LinearLayout>
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,6 +43,5 @@
         android:background="@drawable/roundedbutton"
         android:backgroundTint="#b4ccfb"
         />
-
 </LinearLayout>
 
