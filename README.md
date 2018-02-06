@@ -1,5 +1,5 @@
 # README
-Note: For a simple project as this, I did not bother create a saved instance state. Instead I locked the orientation in the Manifest File.
+Note: For a simple project as this, I did not bother creating a saved instance state. Instead I locked the orientation in the Manifest File.
 # Certification of Authenticity
 I certify that this is my own work. Pledged 2/6/2018 Shaina Mae Mainar
 ## Instructions
